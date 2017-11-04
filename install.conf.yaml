@@ -11,3 +11,8 @@
     ~/.bashrc: bashrc
     ~/.bash: bash
     ~/.inputrc: inputrc
+
+- shell:
+    - source ~/.bash/bash-it.bash && bash-it enable completion git bash-it system
+    - source ~/.bash/bash-it.bash && bash-it enable alias general
+    - source ~/.bash/bash-it.bash && bash-it enable plugin base alias-completion
