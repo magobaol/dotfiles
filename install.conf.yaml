@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      relink: true
+      relative: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash: bash
+    ~/.inputrc: inputrc
