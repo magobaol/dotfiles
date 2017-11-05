@@ -25,3 +25,4 @@
     - brew cask install SourceTree
     - brew cask install OmniFocus
     - brew cask install OmniOutliner
+    - brew cask install Paw
