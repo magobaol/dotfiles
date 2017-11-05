@@ -11,6 +11,8 @@
     ~/.bashrc: bashrc
     ~/.bash: bash
     ~/.inputrc: inputrc
+    ~/.gitignore_global: git/.gitignore_global
+    ~/.gitconfig: git/.gitconfig
 
 - shell:
     - source ~/.bash/bash-it.bash && bash-it enable completion git bash-it system

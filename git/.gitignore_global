@@ -1,0 +1,7 @@
+*~
+.DS_Store
+.idea
+composer.phar
+web/test_out.*
+deploy/src/webapp/smarty_compiled
+temp/

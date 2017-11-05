@@ -1,0 +1,29 @@
+[user]
+	name = Francesco Face
+	email = francesco.face@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	fi = commit --fixup
+	ri = rebase -i --autosquash
+	ff = pull --ff-only
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	autosquash = !git rebase -i --autosquash $(git merge-base master HEAD)
+	please = push --force-with-lease
+[core]
+	excludesfile = /Users/francesco/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = simple
+[color]
+	ui = true
+[commit]
+	template = /Users/francesco/.stCommitMsg
