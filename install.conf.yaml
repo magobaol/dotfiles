@@ -2,6 +2,9 @@
     link:
       relink: true
       relative: true
+    shell:
+      stdout: true
+      stderr: true
 
 - clean: ['~']
 
@@ -18,3 +21,7 @@
     - source ~/.bash/bash-it.bash && bash-it enable completion git bash-it system
     - source ~/.bash/bash-it.bash && bash-it enable alias general
     - source ~/.bash/bash-it.bash && bash-it enable plugin base alias-completion
+    - brew tap caskroom/cask
+    - brew cask install SourceTree
+    - brew cask install OmniFocus
+    - brew cask install OmniOutliner
