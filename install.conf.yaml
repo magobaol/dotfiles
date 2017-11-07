@@ -26,3 +26,4 @@
     - brew cask install OmniFocus
     - brew cask install OmniOutliner
     - brew cask install Paw
+    - brew cask install visual-studio-code
