@@ -8,19 +8,36 @@
 
 - clean: ['~']
 
+#General
 - link:
     ~/.dotfiles: ''
-    ~/.bash_profile: bash_profile
-    ~/.bashrc: bashrc
-    ~/.bash: bash
     ~/.inputrc: inputrc
     ~/.gitignore_global: git/.gitignore_global
     ~/.gitconfig: git/.gitconfig
+
+#Bash & co
+- link:
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash: bash
 
 - shell:
     - source ~/.bash/bash-it.bash && bash-it enable completion git bash-it system ssh
     - source ~/.bash/bash-it.bash && bash-it enable alias general
     - source ~/.bash/bash-it.bash && bash-it enable plugin base alias-completion
+
+#ZSH & co
+- shell:
+    - brew install zsh
+    - sudo sh -c "echo $(which zsh) >> /etc/shells"
+    - chsh -s /usr/local/bin/zsh
+
+- link:
+    ~/.zshrc: zshrc
+    ~/.zsh: zsh
+
+#macOS app
+- shell:
     - brew tap caskroom/cask
     - brew cask install SourceTree
     - brew cask install OmniFocus
