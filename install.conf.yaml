@@ -22,19 +22,21 @@
     ~/.bash: bash
 
 - shell:
+    - git submodule update --init "bash/bash-it"
     - source ~/.bash/bash-it.bash && bash-it enable completion git bash-it system ssh
     - source ~/.bash/bash-it.bash && bash-it enable alias general
     - source ~/.bash/bash-it.bash && bash-it enable plugin base alias-completion
 
 #ZSH & co
+- link:
+    ~/.zshrc: zshrc
+    ~/.zsh: zsh
+
 - shell:
     - brew install zsh
     - sudo sh -c "echo $(which zsh) >> /etc/shells"
     - chsh -s /usr/local/bin/zsh
-
-- link:
-    ~/.zshrc: zshrc
-    ~/.zsh: zsh
+    - git submodule update --init "zsh/oh-my-zsh"
 
 #macOS app
 - shell:
