@@ -34,7 +34,7 @@
 
 - shell:
     - brew install zsh
-    - sudo sh -c "echo $(which zsh) >> /etc/shells"
+    - sudo sh -c "/usr/local/bin/zsh >> /etc/shells"
     - chsh -s /usr/local/bin/zsh
     - git submodule update --init "zsh/oh-my-zsh"
 
