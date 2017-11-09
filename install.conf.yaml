@@ -14,6 +14,7 @@
     ~/.inputrc: inputrc
     ~/.gitignore_global: git/.gitignore_global
     ~/.gitconfig: git/.gitconfig
+    ~/.shell: shell
 
 #Bash & co
 - link:
@@ -33,8 +34,10 @@
     ~/.zsh: zsh
 
 - shell:
-    - brew install zsh
-    - sudo sh -c "/usr/local/bin/zsh >> /etc/shells"
+    - brew install zsh zsh-completions
+    #- sudo sh -c "echo $(which zsh) >> /etc/shells"
+    #- sudo sh -c "echo /usr/local/bin/zsh >> /etc/shells"
+    - grep -q -F '/usr/local/bin/zsh' /etc/shells || sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
     - chsh -s /usr/local/bin/zsh
     - git submodule update --init "zsh/oh-my-zsh"
 
