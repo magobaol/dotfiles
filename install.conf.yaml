@@ -16,6 +16,9 @@
     ~/.gitconfig: git/.gitconfig
     ~/.shell: shell
 
+- shell:
+    - brew install wget
+
 #Bash & co
 - link:
     ~/.bash_profile: bash_profile
