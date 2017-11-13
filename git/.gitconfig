@@ -25,5 +25,3 @@
 	default = simple
 [color]
 	ui = true
-[commit]
-	template = /Users/francesco/.stCommitMsg
