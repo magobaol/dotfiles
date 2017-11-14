@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f bin/phpunit ]; then
+  PHPUNIT="bin/phpunit -c app"
+else
+  PHPUNIT="vendor/bin/phpunit"
+fi
+
+$PHPUNIT "$@"

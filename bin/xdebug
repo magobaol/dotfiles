@@ -1,0 +1,19 @@
+#!/bin/bash
+
+X_PATH="/usr/local/etc/php/5.5/conf.d"
+FILENAME=ext-xdebug.ini
+BKP_EXT='.old'
+
+case $1 in
+    'on')
+        mv $X_PATH/$FILENAME$BKP_EXT $X_PATH/$FILENAME
+        echo 'XDEBUG activated'
+    ;;
+    'off')
+        mv $X_PATH/$FILENAME $X_PATH/$FILENAME$BKP_EXT
+        echo 'XDEBUG deactivated'
+    ;;
+esac
+
+echo 'You will be prompt (if any) to insert sudo password to restart Apache Server'
+sudo apachectl restart

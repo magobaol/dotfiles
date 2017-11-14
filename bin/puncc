@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f bin/phpunit ]; then
+  PHPUNIT="bin/phpunit -c app"
+else
+  PHPUNIT="vendor/bin/phpunit"
+fi
+
+php -dzend_extension=/usr/local/Cellar/php55-xdebug/2.3.3/xdebug.so -dxdebug.max_nesting_level=200 $PHPUNIT --coverage-html=tmp/report "$@"

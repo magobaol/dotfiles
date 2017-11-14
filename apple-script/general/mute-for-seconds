@@ -1,0 +1,3 @@
+#!/bin/sh
+
+osascript ~/mac-automation/apple-script/general/mute-for-seconds.scpt
