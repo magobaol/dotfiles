@@ -19,6 +19,7 @@
 - shell:
     - brew install wget
     - brew install md5sha1sum
+    - brew install switchaudio-osx
 
 #Bash & co
 - link:
