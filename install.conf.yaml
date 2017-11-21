@@ -55,14 +55,14 @@
     ~/.mackup: mackup/.mackup
 
 #macOS app
-- shell:
-    - brew tap caskroom/cask
-    - brew cask install SourceTree
-    - brew cask install OmniFocus
-    - brew cask install OmniOutliner
-    - brew cask install Paw
-    - brew cask install visual-studio-code
-    - brew cask install atom
-    - brew cask install skype
-    - brew cask install google-backup-and-sync
-    - brew cask install firefox
+#- shell:
+#    - brew tap caskroom/cask
+#    - brew cask install SourceTree
+#    - brew cask install OmniFocus
+#    - brew cask install OmniOutliner
+#    - brew cask install Paw
+#    - brew cask install visual-studio-code
+#    - brew cask install atom
+#    - brew cask install skype
+#    - brew cask install google-backup-and-sync
+#    - brew cask install firefox
