@@ -15,6 +15,7 @@
     ~/.gitignore_global: git/.gitignore_global
     ~/.gitconfig: git/.gitconfig
     ~/.shell: shell
+    ~/.vimrc: vimrc
 
 - shell:
     - brew install wget
