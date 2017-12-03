@@ -1,5 +1,6 @@
 #Questo è necessario per far funzionare zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+autoload -U compinit && compinit
 
 source ~/.zsh/oh-my-zsh.zsh
 
