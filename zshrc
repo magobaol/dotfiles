@@ -1,9 +1,11 @@
-#Questo è necessario per far funzionare zsh-completions
+#zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -U compinit && compinit
 
+#zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+#oh-my-zsh
 source ~/.zsh/oh-my-zsh.zsh
 
 # General aliases
