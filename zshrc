@@ -2,6 +2,8 @@
 fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -U compinit && compinit
 
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 source ~/.zsh/oh-my-zsh.zsh
 
 # General aliases
