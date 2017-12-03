@@ -62,7 +62,7 @@ ZSH_THEME="muse"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git symfony2 zsh-syntax-highlighting)
+plugins=(git symfony2)
 
 source $ZSH/oh-my-zsh.sh
 
