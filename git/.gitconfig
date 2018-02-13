@@ -23,5 +23,7 @@
 	trustExitCode = true
 [push]
 	default = simple
+[fetch]
+	prune=true
 [color]
 	ui = true
