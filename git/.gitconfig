@@ -15,6 +15,7 @@
 	please = push --force-with-lease
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = 'vi'
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
