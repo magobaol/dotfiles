@@ -14,6 +14,7 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 	autosquash = !git rebase -i --autosquash $(git merge-base master HEAD)
 	please = push --force-with-lease
+	wip = commit -m \"WIP\"
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = 'vi'
