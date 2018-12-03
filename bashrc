@@ -10,6 +10,10 @@ if [ -f ~/.shell_ae ]; then
     source ~/.shell_ae
 fi
 
+if [ -f ~/.functions_ae ]; then
+    source ~/.functions_ae
+fi
+
 if [ -f ~/.bash_ae ]; then
     source ~/.bash_ae
 fi

@@ -17,3 +17,7 @@ source ~/.shell/bootstrap.sh
 if [ -f ~/.shell_ae ]; then
     source ~/.shell_ae
 fi
+
+if [ -f ~/.functions_ae ]; then
+    source ~/.functions_ae
+fi
