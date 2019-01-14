@@ -15,6 +15,7 @@
 	autosquash = !git rebase -i --autosquash $(git merge-base master HEAD)
 	please = push --force-with-lease
 	wip = commit -m \"WIP\"
+	fix = commit --fixup
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = 'vi'
