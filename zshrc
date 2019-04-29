@@ -21,3 +21,7 @@ fi
 if [ -f ~/.functions_ae ]; then
     source ~/.functions_ae
 fi
+
+if [ -f ~/.shell_hs ]; then
+    source ~/.shell_hs
+fi
