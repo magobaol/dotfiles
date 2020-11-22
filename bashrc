@@ -14,6 +14,6 @@ if [ -f ~/.bash_ae ]; then
     source ~/.bash_ae
 fi
 
-if [ -f ~/.shell_hs ]; then
-    source ~/.shell_hs
+if [ -f ~/.bashrc_hs ]; then
+    source ~/.bashrc_hs
 fi

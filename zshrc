@@ -18,6 +18,6 @@ if [ -f ~/.shell_ae ]; then
     source ~/.shell_ae
 fi
 
-if [ -f ~/.shell_hs ]; then
-    source ~/.shell_hs
+if [ -f ~/.zshrc_hs ]; then
+    source ~/.zshrc_hs
 fi
