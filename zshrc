@@ -14,8 +14,8 @@ source ~/.shell/aliases.sh
 # Bootstrap
 source ~/.shell/bootstrap.sh
 
-if [ -f ~/.shell_ae ]; then
-    source ~/.shell_ae
+if [ -f ~/.zshrc_ae ]; then
+    source ~/.zshrc_ae
 fi
 
 if [ -f ~/.zshrc_hs ]; then
