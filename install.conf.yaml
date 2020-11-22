@@ -49,7 +49,6 @@
 - shell:
     - brew install zsh zsh-completions zsh-syntax-highlighting
     - grep -q -F '/usr/local/bin/zsh' /etc/shells || sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
-    #- chsh -s /usr/local/bin/zsh
     - git submodule update --init "zsh/oh-my-zsh"
 
 #Mackup
