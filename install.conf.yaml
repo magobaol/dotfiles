@@ -30,8 +30,12 @@
     ~/.bash: bash
 
 - shell:
-    - brew install bash
-    - grep -q -F '/usr/local/bin/bash' /etc/shells || sudo sh -c "echo '/usr/local/bin/bash' >> /etc/shells"
+    - 
+      command: brew install bash
+      description: Installing the most up-to-date bash
+    - 
+      command: grep -q -F '/usr/local/bin/bash' /etc/shells || sudo sh -c "echo '/usr/local/bin/bash' >> /etc/shells"
+      description: Making the just installed bash available as a shell in the system
     - git submodule update --init "bash/bash-it"
     - source ~/.bash/bash-it.bash && bash-it enable completion git bash-it system ssh
     - source ~/.bash/bash-it.bash && bash-it enable alias general
