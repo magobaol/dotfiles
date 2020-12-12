@@ -31,3 +31,5 @@
 	prune=true
 [color]
 	ui = true
+[pull]
+	rebase = true
