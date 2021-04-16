@@ -58,7 +58,9 @@
     ~/.mackup: mackup/.mackup
 
 #macOS app
-#- shell:
+- shell:
+    - brew install mas
+    - brew bundle
 #    - brew tap caskroom/cask
 #    - brew cask install SourceTree
 #    - brew cask install OmniFocus

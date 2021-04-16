@@ -1,0 +1,328 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
+      },
+      "homebrew/cask": {
+        "revision": "a7d65082aa64c82e50f324eae0526d3824557fe5"
+      },
+      "homebrew/core": {
+        "revision": "787dd673bf726d0ce594935b33b309195e4bef2f"
+      },
+      "homebrew/services": {
+        "revision": "953a962d37c2cecc01f56d3e5d89814e5772abfb"
+      },
+      "hootsuite/homebrew": {
+        "revision": "b4d5bf461452b96698bbcf9fe0fba20e0d9e0348",
+        "options": {
+          "clone_target": "git@github.hootops.com:hootsuite/homebrew.git"
+        }
+      },
+      "teamookla/speedtest": {
+        "revision": "c4d2caae429a2d8a86161d9dfa28811bd606eac5"
+      },
+      "homebrew/cask-versions": {
+        "revision": "7faf714e0aa9d587880304726e3be0ca0ee48d40"
+      }
+    },
+    "brew": {
+      "python@3.9": {
+        "version": "3.9.4",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:9d38ac550179a6b6004a30eb063ce659ba5d14c2412d2ce60e2ddf010d402d93",
+              "sha256": "9d38ac550179a6b6004a30eb063ce659ba5d14c2412d2ce60e2ddf010d402d93"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:77ba90d10acfc70e57781aae7b8f48799bc4d521422c74fe723cb2d6f5850c5c",
+              "sha256": "77ba90d10acfc70e57781aae7b8f48799bc4d521422c74fe723cb2d6f5850c5c"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:225b1f2e9bbc2d751abb0a539e9c231769370136649f7d94191114248bdf4d39",
+              "sha256": "225b1f2e9bbc2d751abb0a539e9c231769370136649f7d94191114248bdf4d39"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:d99937524f1a9bb07bb01ff09f280609fdbce51e0aa3604d17e87f4ebd9bc498",
+              "sha256": "d99937524f1a9bb07bb01ff09f280609fdbce51e0aa3604d17e87f4ebd9bc498"
+            }
+          }
+        }
+      },
+      "mas": {
+        "version": "1.8.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:f5ef4f44057f43ecc14f970687d832bd152bc6142c0ad848977f0a6527aa934f",
+              "sha256": "f5ef4f44057f43ecc14f970687d832bd152bc6142c0ad848977f0a6527aa934f"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:d92cfc734e730fde87b29c6bf4a50ce63a78b9e505f464dc557eee128aa06d05",
+              "sha256": "d92cfc734e730fde87b29c6bf4a50ce63a78b9e505f464dc557eee128aa06d05"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:163eb9cfdfed3d8fbda133b4079d104ad687f1ddb71d70d5661d02b22f562e76",
+              "sha256": "163eb9cfdfed3d8fbda133b4079d104ad687f1ddb71d70d5661d02b22f562e76"
+            }
+          }
+        }
+      },
+      "switchaudio-osx": {
+        "version": "1.1.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/switchaudio-osx/blobs/sha256:631619e7f83da181c8287e6795de8d54c03cab15bf29ba4ce5b5c0fb1f3aafcb",
+              "sha256": "631619e7f83da181c8287e6795de8d54c03cab15bf29ba4ce5b5c0fb1f3aafcb"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/switchaudio-osx/blobs/sha256:4e6b47d1a51d71706f160ed4f19cc6fe6cacd1370eab298c029976ae6c32484e",
+              "sha256": "4e6b47d1a51d71706f160ed4f19cc6fe6cacd1370eab298c029976ae6c32484e"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/switchaudio-osx/blobs/sha256:59e92aaf09b86e49b6bd5f4300db02cf0812118e08146eaa2c540cb8e34b1a6b",
+              "sha256": "59e92aaf09b86e49b6bd5f4300db02cf0812118e08146eaa2c540cb8e34b1a6b"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/switchaudio-osx/blobs/sha256:e48cf16dc12a923093b4ddf5467f8234d129e5bdc15f1df1fdad30ec251e7f35",
+              "sha256": "e48cf16dc12a923093b4ddf5467f8234d129e5bdc15f1df1fdad30ec251e7f35"
+            }
+          }
+        }
+      },
+      "wget": {
+        "version": "1.21.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/wget/blobs/sha256:e9034fc9062d5d28972135be031876672aff18fa945ce37e9c2ee1e2c4287f3a",
+              "sha256": "e9034fc9062d5d28972135be031876672aff18fa945ce37e9c2ee1e2c4287f3a"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/wget/blobs/sha256:e6ea2a50b8196206f7072360e713535bb16fb786c8b5fe23cab05757e0f67b13",
+              "sha256": "e6ea2a50b8196206f7072360e713535bb16fb786c8b5fe23cab05757e0f67b13"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/wget/blobs/sha256:88116cb28d6b85e441d1bb9df0a1454b84f8b9d0e8817a5bee0f228acc59e75a",
+              "sha256": "88116cb28d6b85e441d1bb9df0a1454b84f8b9d0e8817a5bee0f228acc59e75a"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/wget/blobs/sha256:ae4e6f1dc4ecaf2bbed7700e8d64cdc671bf9d6c085ba335f119861fd15956fe",
+              "sha256": "ae4e6f1dc4ecaf2bbed7700e8d64cdc671bf9d6c085ba335f119861fd15956fe"
+            }
+          }
+        }
+      }
+    },
+    "cask": {
+      "smcfancontrol": {
+        "version": "2.6",
+        "options": {
+          "full_name": "smcfancontrol"
+        }
+      },
+      "whichspace": {
+        "version": "0.3.2",
+        "options": {
+          "full_name": "whichspace"
+        }
+      },
+      "launchbar": {
+        "version": "6.14.1",
+        "options": {
+          "full_name": "LaunchBar"
+        }
+      },
+      "bartender": {
+        "version": "3.1.25,31125",
+        "options": {
+          "full_name": "Bartender"
+        }
+      },
+      "clipy": {
+        "version": "1.2.1",
+        "options": {
+          "full_name": "Clipy"
+        }
+      },
+      "firefox-developer-edition": {
+        "version": "latest",
+        "options": {
+          "full_name": "firefox-developer-edition"
+        }
+      },
+      "omnifocus": {
+        "version": "3.11.7",
+        "options": {
+          "full_name": "Omnifocus"
+        }
+      },
+      "moom": {
+        "version": "3.2.21,3317",
+        "options": {
+          "full_name": "Moom"
+        }
+      },
+      "choosy": {
+        "version": "2.2.1",
+        "options": {
+          "full_name": "Choosy"
+        }
+      },
+      "keyboard-maestro": {
+        "version": "9.2",
+        "options": {
+          "full_name": "keyboard-maestro"
+        }
+      },
+      "daisydisk": {
+        "version": "4.12.1",
+        "options": {
+          "full_name": "DaisyDisk"
+        }
+      },
+      "exifrenamer": {
+        "version": "2.4.0,15",
+        "options": {
+          "full_name": "ExifRenamer"
+        }
+      },
+      "path-finder": {
+        "version": "10.0.3,2089",
+        "options": {
+          "full_name": "path-finder"
+        }
+      },
+      "spotify": {
+        "version": "1.1.56.595.g2d2da0de,1.1.56.595.g2d2da0de-24",
+        "options": {
+          "full_name": "Spotify"
+        }
+      },
+      "fantastical": {
+        "version": "3.3.7,1272",
+        "options": {
+          "full_name": "Fantastical"
+        }
+      },
+      "paw": {
+        "version": "3.2.2",
+        "options": {
+          "full_name": "Paw"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2112.10",
+        "options": {
+          "full_name": "Whatsapp"
+        }
+      },
+      "obsidian": {
+        "version": "0.11.13",
+        "options": {
+          "full_name": "Obsidian"
+        }
+      }
+    },
+    "mas": {
+      "Bear": {
+        "id": "1091189122",
+        "version": "1.8.2"
+      },
+      "BetterSnapTool": {
+        "id": "417375580",
+        "version": "1.9.5"
+      },
+      "Clocker": {
+        "id": "1056643111",
+        "version": "21.03.01"
+      },
+      "Day One": {
+        "id": "1055511498",
+        "version": "6.1"
+      },
+      "Drafts": {
+        "id": "1435957248",
+        "version": "26.2"
+      },
+      "Grammarly for Safari": {
+        "id": "1462114288",
+        "version": "9.29"
+      },
+      "LastPass": {
+        "id": "926036361",
+        "version": "4.4.0"
+      },
+      "Marked 2": {
+        "id": "890031187",
+        "version": "2.6.7"
+      },
+      "Okta Extension App": {
+        "id": "1439967473",
+        "version": "5.44.0"
+      },
+      "OmniOutliner": {
+        "id": "1142578772",
+        "version": "5.8.3"
+      },
+      "PopClip": {
+        "id": "445189367",
+        "version": "2020.12"
+      },
+      "Slack": null,
+      "Spark": {
+        "id": "1176895641",
+        "version": "2.9.19"
+      },
+      "Ulysses": {
+        "id": "1225570693",
+        "version": "22.1"
+      },
+      "Unclutter": {
+        "id": "577085396",
+        "version": "2.1.24"
+      },
+      "Moom": {
+        "id": "419330170",
+        "version": "3.2.21"
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "3.1.2",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "787dd673bf726d0ce594935b33b309195e4bef2f",
+        "CLT": "12.4.0.0.1.1610135815",
+        "Xcode": "12.0",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}
