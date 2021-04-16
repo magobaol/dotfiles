@@ -57,6 +57,11 @@
     ~/.mackup.cfg: mackup/.mackup.cfg
     ~/.mackup: mackup/.mackup
 
+#Other
+- shell:
+    - brew install tig
+    - pip3 install --upgrade spotify-cli
+
 #macOS app
 - shell:
     - brew install mas
