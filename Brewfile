@@ -44,3 +44,4 @@ mas "PopClip", id: 445189367
 #mas "Spark", id: 1176895641
 mas "Ulysses", id: 1225570693
 mas "Unclutter", id: 577085396
+mas "PixelMator Classic", id: 407963104
