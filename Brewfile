@@ -27,6 +27,7 @@ cask "Fantastical"
 cask "Paw"
 cask "Whatsapp"
 cask "Obsidian"
+cask "OmniOutliner"
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
 mas "BetterSnapTool", id: 417375580
@@ -37,7 +38,6 @@ mas "Grammarly for Safari", id: 1462114288
 mas "LastPass", id: 926036361
 mas "Marked 2", id: 890031187
 mas "Okta Extension App", id: 1439967473
-mas "OmniOutliner", id: 1142578772
 mas "PopClip", id: 445189367
 #mas "Slack", id: 803453959
 #mas "Spark", id: 1176895641
