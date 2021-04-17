@@ -5,10 +5,10 @@
         "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
       },
       "homebrew/cask": {
-        "revision": "a7d65082aa64c82e50f324eae0526d3824557fe5"
+        "revision": "dab1b42f2657482b6562436df3e0bcf3ca7b894e"
       },
       "homebrew/core": {
-        "revision": "787dd673bf726d0ce594935b33b309195e4bef2f"
+        "revision": "7172c077456d72a04950465c8a18ea10bd227c48"
       },
       "homebrew/services": {
         "revision": "953a962d37c2cecc01f56d3e5d89814e5772abfb"
@@ -23,7 +23,7 @@
         "revision": "c4d2caae429a2d8a86161d9dfa28811bd606eac5"
       },
       "homebrew/cask-versions": {
-        "revision": "7faf714e0aa9d587880304726e3be0ca0ee48d40"
+        "revision": "bd53b083196f53fd3c8881c5865cc6d1ac2598f5"
       }
     },
     "brew": {
@@ -231,7 +231,7 @@
         }
       },
       "paw": {
-        "version": "3.2.2",
+        "version": "3.2.2,3002002001",
         "options": {
           "full_name": "Paw"
         }
@@ -246,6 +246,18 @@
         "version": "0.11.13",
         "options": {
           "full_name": "Obsidian"
+        }
+      },
+      "omnioutliner": {
+        "version": "5.8.3",
+        "options": {
+          "full_name": "OmniOutliner"
+        }
+      },
+      "karabiner-elements": {
+        "version": "13.4.0",
+        "options": {
+          "full_name": "karabiner-elements"
         }
       }
     },
@@ -280,7 +292,7 @@
       },
       "Marked 2": {
         "id": "890031187",
-        "version": "2.6.7"
+        "version": "2.6.8"
       },
       "Okta Extension App": {
         "id": "1439967473",
@@ -318,8 +330,8 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.1.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "787dd673bf726d0ce594935b33b309195e4bef2f",
-        "CLT": "12.4.0.0.1.1610135815",
+        "Homebrew/homebrew-core": "7172c077456d72a04950465c8a18ea10bd227c48",
+        "CLT": "12.0.0.32.29",
         "Xcode": "12.0",
         "macOS": "10.15.7"
       }

@@ -28,6 +28,7 @@ cask "Paw"
 cask "Whatsapp"
 cask "Obsidian"
 cask "OmniOutliner"
+cask "karabiner-elements"
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
 mas "BetterSnapTool", id: 417375580
