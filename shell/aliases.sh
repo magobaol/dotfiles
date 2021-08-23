@@ -1,6 +1,6 @@
 alias to_zsh='chsh -s /usr/local/bin/zsh'
 alias to_bash='chsh -s /usr/local/bin/bash'
 alias ip='ifconfig | grep inet'
-alias punf='phpunit --filter '
+alias punf='php bin/phpunit --filter '
 alias sf='bin/console'
 alias pun='php bin/phpunit'
