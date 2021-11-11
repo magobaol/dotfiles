@@ -64,7 +64,7 @@
 
 #macOS app
 - shell:
-    - brew install mas
+#    - brew install mas
     - brew bundle
 #    - brew tap caskroom/cask
 #    - brew cask install SourceTree
