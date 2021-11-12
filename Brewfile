@@ -32,6 +32,8 @@ cask "OmniOutliner"
 cask "karabiner-elements"
 cask "homebrew/cask-drivers/logitech-camera-settings"
 cask "setapp"
+cask "elgato-stream-deck"
+cask "google-drive"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
