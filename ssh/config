@@ -1,0 +1,113 @@
+Host nelson
+Hostname nelson.noahnet.it
+User root
+
+Host sheldon
+Hostname 10.0.0.5
+User admin
+
+Host zet08
+Hostname 192.168.10.60
+User root
+
+Host rinnovo-patenti
+Hostname 104.167.109.137
+User root
+
+Host rinnovofacile
+Hostname 104.219.58.74
+User root
+
+Host myald_prod_1
+Hostname 62.85.163.122
+User sviluppo
+
+Host myald_prod_4
+Hostname 62.85.163.196
+User sviluppo
+
+Host myald_prod_5
+Hostname 62.85.163.197
+User sviluppo
+
+Host myald_prod_db
+Hostname 62.85.163.198
+User intthnn6
+
+Host myald_dev
+#Hostname dev.myald.dnsee.com
+Hostname 212.25.162.13
+User sviluppo
+
+Host myald_stage
+#Hostname stage.myald.dnsee.com
+Hostname 212.25.162.143
+User sviluppo
+
+Host ccs_prod_1
+Hostname 62.85.170.2
+User ccs-prod
+
+Host ccs_prod_2
+Hostname 62.85.170.3
+User ccs-prod
+
+Host ccs_prod_db
+Hostname 62.85.170.4
+User d0ing01
+
+Host ccs_dev
+Hostname 212.25.162.180
+User sviluppo
+
+Host ccs_stage
+#Hostname stage.myald.dnsee.com
+Hostname 212.25.162.139
+User sviluppo
+
+Host ald_restyling
+Hostname 212.25.162.120
+User sviluppo
+
+Host jenkins_doing
+Hostname 192.168.13.53
+User root
+
+#IT-CCS-FE01-RM
+Host mma_coe_dev dev.mma.coe.aldautomotive.it
+Hostname 194.79.195.60
+Port 10021
+User it-admin-ccs
+
+#IT-CCS-FE02-RM
+Host ccs_coe_dev dev.ccs.coe.aldautomotive.it
+Hostname 194.79.195.60
+Port 10022
+User it-admin-ccs
+
+#IT-CCS-FE03-RM
+Host mma_coe_stage stage.mma.coe.aldautomotive.it
+Hostname 194.79.195.60
+Port 10023
+User it-admin-ccs
+
+#IT-CCS-FE04-RM
+Host ccs_coe_stage stage.ccs.coe.aldautomotive.it
+Hostname 194.79.195.60
+Port 10024
+User it-admin-ccs
+
+Host scaleway-1
+Hostname 163.172.140.89
+User root
+
+Host hermes
+Hostname 51.15.87.89
+User root
+
+Host ubuntu
+Hostname 10.211.55.3
+User francesco
+
+Host git@github.hootops.com:web/git-hooks-shared.git
+	StrictHostKeyChecking no
