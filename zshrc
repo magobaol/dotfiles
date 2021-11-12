@@ -3,7 +3,11 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -U compinit && compinit
 
 #zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+else
+    source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
 
 #oh-my-zsh
 source ~/.zsh/oh-my-zsh.zsh
