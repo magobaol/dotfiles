@@ -39,6 +39,10 @@ cask "skype"
 cask "kindle"
 cask "notion"
 cask "raindropio"
+cask "vlc"
+cask "vox"
+cask "customshortcuts"
+cask "discord"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
@@ -56,3 +60,4 @@ mas "Spark", id: 1176895641
 mas "Ulysses", id: 1225570693
 # mas "Unclutter", id: 577085396
 mas "PixelMator Classic", id: 407963104
+mas "irvue", id: 1039633667
