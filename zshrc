@@ -1,7 +1,7 @@
 #zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -U compinit && compinit
-
+DISABLE_MAGIC_FUNCTIONS=true #avoid autoescape some chars when pasting from clipboard
 #zsh-syntax-highlighting
 if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
