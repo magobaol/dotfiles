@@ -27,6 +27,7 @@
 	trustExitCode = true
 [push]
 	default = simple
+	autoSetupRemote = true
 [fetch]
 	prune=true
 [color]
