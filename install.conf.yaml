@@ -10,7 +10,7 @@
 
 #General
 - shell:
-   - mkdir ~/.ssh
+   - mv ~/.ssh/config ~/.ssh/config.ff.dotfiles
 - link:
     ~/.dotfiles: ''
     ~/.inputrc: inputrc
@@ -20,11 +20,10 @@
     ~/.vimrc: vimrc
     ~/.ssh/config: ssh/config
 
+#macOS app
 - shell:
-    - brew install wget
-    - brew install md5sha1sum
-    - brew install switchaudio-osx
-    - brew install hub
+#    Brew bundle will install all the needed apps. Check the `Brewfile` for the complete list
+    - brew bundle
 
 #Bash & co
 - link:
@@ -33,9 +32,6 @@
     ~/.bash: bash
 
 - shell:
-    - 
-      command: brew install bash
-      description: Installing the most up-to-date bash
     - 
       command: grep -q -F '/usr/local/bin/bash' /etc/shells || sudo sh -c "echo '/usr/local/bin/bash' >> /etc/shells"
       description: Making the just installed bash available as a shell in the system
@@ -48,16 +44,9 @@
     ~/.zsh: zsh
 
 - shell:
-    - brew install zsh zsh-completions zsh-syntax-highlighting
     - grep -q -F '/usr/local/bin/zsh' /etc/shells || sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
     - git submodule update --init "zsh/oh-my-zsh"
 
 #Other
 - shell:
-    - brew install tig
     - pip3 install --upgrade spotify-cli
-
-#macOS app
-- shell:
-#    Brew bundle will install all the needed apps. Check the `Brewfile` for the complete list
-    - brew bundle
