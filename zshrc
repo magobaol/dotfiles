@@ -25,8 +25,3 @@ fi
 if [ -f ~/.zshrc_hs ]; then
     source ~/.zshrc_hs
 fi
-
-# Added for Jekyll installation. See: https://jekyllrb.com/docs/installation/macos/
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.3
