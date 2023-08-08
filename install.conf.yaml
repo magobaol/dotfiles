@@ -67,16 +67,5 @@
 
 #macOS app
 - shell:
-#    - brew install mas
+#    Brew bundle will install all the needed apps. Check the `Brewfile` for the complete list
     - brew bundle
-#    - brew tap caskroom/cask
-#    - brew cask install SourceTree
-#    - brew cask install OmniFocus
-#    - brew cask install OmniOutliner
-#    - brew cask install Paw
-#    - brew cask install visual-studio-code
-#    - brew cask install atom
-#    - brew cask install skype
-#    - brew cask install google-backup-and-sync
-#    - brew cask install firefox
-#    - brew cask install toggl
