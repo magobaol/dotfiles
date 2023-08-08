@@ -52,14 +52,6 @@
     - grep -q -F '/usr/local/bin/zsh' /etc/shells || sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
     - git submodule update --init "zsh/oh-my-zsh"
 
-#Mackup
-- shell:
-    - brew install mackup
-
-- link:
-    ~/.mackup.cfg: mackup/.mackup.cfg
-    ~/.mackup: mackup/.mackup
-
 #Other
 - shell:
     - brew install tig
