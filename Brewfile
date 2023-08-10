@@ -16,6 +16,7 @@ brew "bash"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+brew "whichspace"
 
 cask "macs-fan-control"
 cask "whichspace"
@@ -49,6 +50,7 @@ cask "vox"
 cask "customshortcuts"
 cask "discord"
 cask "zoom"
+cask "dropbox"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
@@ -64,15 +66,3 @@ mas "Spark", id: 1176895641
 mas "Ulysses", id: 1225570693
 mas "PixelMator Classic", id: 407963104
 mas "irvue", id: 1039633667
-
-### Hootsuite specific
-# tap "hootsuite/homebrew", "git@github.hootops.com:hootsuite/homebrew.git"
-# mas "LastPass", id: 926036361
-# mas "Okta Extension App", id: 1439967473
-
-### Not used anymore
-# cask "LaunchBar"
-# mas "Unclutter", id: 577085396
-
-### Now on Setapp
-# cask "Bartender"
