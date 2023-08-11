@@ -16,7 +16,9 @@ brew "bash"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
-brew "whichspace"
+brew "node"
+brew "php"
+brew "composer"
 
 cask "macs-fan-control"
 cask "whichspace"
@@ -51,6 +53,7 @@ cask "customshortcuts"
 cask "discord"
 cask "zoom"
 cask "dropbox"
+cask "textmate"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
