@@ -64,3 +64,4 @@
 #Other
 - shell:
     - pip3 install --upgrade spotify-cli
+    - go install github.com/catilac/plistwatch@latest

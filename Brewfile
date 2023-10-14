@@ -19,6 +19,7 @@ brew "zsh-syntax-highlighting"
 brew "node"
 brew "php"
 brew "composer"
+brew "golang"
 
 cask "macs-fan-control"
 cask "whichspace"
