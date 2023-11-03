@@ -20,6 +20,7 @@ brew "node"
 brew "php"
 brew "composer"
 brew "golang"
+brew "yq"
 
 cask "macs-fan-control"
 cask "whichspace"
