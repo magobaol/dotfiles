@@ -17,6 +17,7 @@ brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 brew "node"
+brew "nvm"
 brew "php"
 brew "composer"
 brew "golang"
@@ -71,3 +72,4 @@ mas "Spark", id: 1176895641
 mas "Ulysses", id: 1225570693
 mas "PixelMator Classic", id: 407963104
 mas "irvue", id: 1039633667
+mas "Data Jar", id: 1453273600
