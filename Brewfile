@@ -57,6 +57,7 @@ cask "discord"
 cask "zoom"
 cask "dropbox"
 cask "textmate"
+cask "brave-browser"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
