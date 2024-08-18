@@ -6,6 +6,10 @@ Host penny
 Hostname 192.168.14.105
 User pi
 
+Host lisa
+Hostname 192.168.178.105
+User pi
+
 Host git@github.hootops.com:web/git-hooks-shared.git
 	StrictHostKeyChecking no
 
