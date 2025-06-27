@@ -1,8 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "homebrew/services"
 tap "teamookla/speedtest"
 
 brew "python@3.9"
@@ -23,10 +18,11 @@ brew "composer"
 brew "golang"
 brew "yq"
 
+cask "1password-cli"
 cask "macs-fan-control"
 cask "whichspace"
 cask "alfred"
-cask "firefox-developer-edition"
+cask "firefox@developer-edition"
 cask "Omnifocus"
 cask "Choosy"
 cask "keyboard-maestro"
@@ -36,7 +32,6 @@ cask "GoodSync"
 cask "path-finder"
 cask "Spotify"
 cask "Fantastical"
-cask "Paw"
 cask "Whatsapp"
 cask "Obsidian"
 cask "OmniOutliner"
@@ -46,8 +41,6 @@ cask "setapp"
 cask "elgato-stream-deck"
 cask "google-drive"
 cask "google-chrome"
-cask "skype"
-cask "kindle"
 cask "notion"
 cask "raindropio"
 cask "vlc"
@@ -58,6 +51,7 @@ cask "zoom"
 cask "dropbox"
 cask "textmate"
 cask "brave-browser"
+cask "popclip"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
@@ -74,3 +68,4 @@ mas "Ulysses", id: 1225570693
 mas "PixelMator Classic", id: 407963104
 mas "irvue", id: 1039633667
 mas "Data Jar", id: 1453273600
+mas "Logger for Shortcuts", id: 1611554653
