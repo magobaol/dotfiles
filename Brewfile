@@ -52,6 +52,7 @@ cask "dropbox"
 cask "textmate"
 cask "brave-browser"
 cask "popclip"
+cask "openvpn-connect"
 
 mas "Moom", id: 419330170
 mas "Bear", id: 1091189122
