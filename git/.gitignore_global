@@ -5,3 +5,4 @@ composer.phar
 web/test_out.*
 deploy/src/webapp/smarty_compiled
 temp/
+.phpunit.cache
