@@ -25,3 +25,6 @@ fi
 if [ -f ~/.zshrc_hs ]; then
     source ~/.zshrc_hs
 fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
