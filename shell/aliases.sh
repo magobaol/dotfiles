@@ -2,6 +2,9 @@ alias ip='ifconfig | grep inet'
 alias punf='php bin/phpunit --filter '
 alias sf='bin/console'
 alias pun='php bin/phpunit'
+alias typora='open -a typora'
+alias typ=typora
+alias tp=typora
 
 to_zsh()
 {
