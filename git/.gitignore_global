@@ -6,4 +6,4 @@ web/test_out.*
 deploy/src/webapp/smarty_compiled
 temp/
 .phpunit.cache
-.claude/settings.local.json
+**/.claude/settings.local.json
