@@ -27,3 +27,11 @@ to_bash()
     chsh -s /usr/local/bin/bash
   fi
 }
+
+## This is to reset in iTerm possible manual badges set remotely
+ssh() {
+  command ssh "$@"
+  local rc=$?
+  printf '\033]1337;SetBadgeFormat=%s\007' "$(printf '\\(session.hostname)' | base64)"  
+  return $rc
+}
