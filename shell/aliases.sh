@@ -6,6 +6,9 @@ alias typora='open -a typora'
 alias typ=typora
 alias tp=typora
 
+# Quick cd to frequently used project roots: enables `cd <projectname>` from anywhere (with zsh autocomplete)
+export CDPATH=".:$HOME/francesco/sviluppo/progetti:$HOME/francesco/vaults/pkms/ffPKM/70 Projects:$HOME/Applications:$HOME/francesco/photos"
+
 to_zsh()
 {
   # Apple Silicon
